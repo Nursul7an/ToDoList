@@ -1,16 +1,20 @@
-package edu.module1.model.dto;
+package edu.module1.model.wrapper;
 
 import lombok.*;
 import lombok.experimental.FieldDefaults;
+
+import javax.validation.constraints.NotBlank;
 
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
 @FieldDefaults(level = AccessLevel.PRIVATE)
-public class UserDto {
-    Long id;
+public class RegisterRequest {
+    @NotBlank
     String username;
+    @NotBlank
     String email;
+    @NotBlank
+    String password;
 }
