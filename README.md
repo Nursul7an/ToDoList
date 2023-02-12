@@ -1,6 +1,6 @@
 # ToDoList
 This is a simple  project made in order to participate Hackathon.
-Task provided by organizator Makers Incubator and impletented for the folowring requirements.
+The task provided by the organization Makers Incubator and implemented for the following requirements.
 
 
 + register and log in to the user;
